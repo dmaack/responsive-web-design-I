@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-/* html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,9 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-*/
+
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,7 +46,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}  */
+} 
 
 
 
@@ -73,17 +73,28 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+section{
+    padding:2% 0;
+    margin:0 5% 0 5%;
+}
 /************ HEADER STYLES HERE ****************/
 
 header{
+    width:100%;
     height:40vh;
 }
 
 nav{
+    padding-top:2%;
     display:flex;
     justify-content: space-between;
 }
 
+a{
+    text-decoration: none;
+    color:grey;
+    font-size:20px;
+}
 .links{
     width:70%;
     display:flex;
@@ -93,25 +104,85 @@ nav{
 
 .LogoContainer{
     width:30%;
+    text-align:right;
+    padding-right:5%;
+
 }
 
 .title{
-    height:100%;
+    height:90%;
     display:flex;
     align-items: center;
 }
 
 .h1-title{
-    width:60%;
+    width:50%;
     display:flex;
+    justify-content: center;
     align-items: center;
     
 }
 h1{
-    font-size:80px;
+    font-size:85px;
+    text-align:center;
 }
 .top-image{
-    width:40%;
+    width:50%;
+    text-align:center;
 }
 
+.title div{
+    width:70%;
+}
+
+button{
+    border:1px solid black;
+    padding:5px 30px 5px 30px;
+    font-size:20px;
+    margin-bottom:40px;
+}
 /*************** TOP CONTENT STYLES **************/
+#top-content{
+   border-top: 1px solid black;
+}
+
+.topContainer{
+    display: flex;
+}
+
+.topContainer div{
+    width:50%;
+}
+
+.middle-img{
+    width:100%;
+}
+
+.topContainer p{
+    line-height: 1.5;
+}
+/*************** BOTTOM CONTENT STYLES **************/
+
+.bottomContainer{
+    border-bottom: 1px solid black;
+    padding-bottom:2%;
+    display: flex;
+}
+
+.bottomContainer div{
+    width:33%;
+}
+
+.bottomContainer p{
+    line-height: 1.5;
+}
+/******************* FOOTER *********************/
+.contact{
+	width:10%;
+	padding-top:15px;
+}
+
+footer{
+	text-align:center;
+	margin-bottom:50px;
+}
