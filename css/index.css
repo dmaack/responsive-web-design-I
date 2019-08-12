@@ -188,7 +188,7 @@ footer{
 	margin-bottom:50px;
 }
 
-/*************** MEDIA QUERIES ***************/
+/*************** MEDIA QUERY 800PX ***************/
 
 @media screen and (max-width:800px){
     nav{
@@ -212,4 +212,26 @@ footer{
         display: flex;
         justify-content: center;
         }
+}
+
+/*************** MEDIA QUERY 800PX ***************/
+
+@media screen and (max-width:500px){
+    
+    nav{
+        width:100%;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width:100%; 
+    }
+    .links a{
+        
+    }
 }
