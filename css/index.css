@@ -234,7 +234,7 @@ footer{
         flex-direction: column;
     }
     nav{
-        width:100%%;
+        width:100%;
         display: flex;
         flex-direction: column-reverse;
         align-items:center;
@@ -277,6 +277,7 @@ footer{
     }
     #top-content{
         border-top:1.5px solid black;
+        padding-top:5%;
         margin-top:5%;
     }
     .topContainer{
@@ -296,6 +297,102 @@ footer{
         margin:5% 0 5% 0;
     }
     .contact{
-        width:25%;
+        width:30%;
+    }
+    footer{
+        margin-top:5%;
     }
 }
+
+
+/****************** SERVICES CSS ******************/
+
+/* .container{
+	width:90%;
+	padding-top:30px;
+	padding-bottom:20px;
+	margin: 0 5% 0 5%;
+	display:flex;
+	justify-content:space-between;
+}
+
+h1{
+	font-size:25px;
+}
+.navLinks{
+	padding-top:5px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.services-header-img{
+	width:90%;
+	margin: 0 5% 0 5%;
+}
+
+.top-info {
+	width:90%;
+	border-bottom: 1px solid black;
+	padding-bottom:30px;
+	padding-top:30px;
+	margin: 0 5% 0 5%;
+}
+
+/* .top-into .services{
+	width:90%;
+	margin: 0 5% 0 5%;
+} */
+
+/* .services-content {
+	// width: 100%;
+	padding-top:40px;
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+
+.services-content .servicesBox{
+	width:42.5%;
+	background-color:#f2f2f2;
+	border:1px solid black;
+	padding:25px;
+	margin-bottom:40px;
+}
+
+.learn-button{
+	border:1px solid black;
+	border-radius:5px;
+	padding:8px 40px 8px 40px;
+	margin-top:15px;
+}
+
+p{
+	line-height:1.5;
+	margin-bottom:15px;
+}
+
+hr{
+	width:90%;
+	border-top:1px solid black;
+}
+
+.facts{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+
+.facts-content{
+	width:42.5%;
+	margin-top:40px;
+	margin-bottom:60px;
+}
+
+.services-info-img{
+	width:100%;	
+}
+
+.copywrite{
+	margin-bottom:30px;
+} */ 
