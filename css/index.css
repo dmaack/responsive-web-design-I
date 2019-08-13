@@ -191,7 +191,7 @@ footer{
 	margin-bottom:50px;
 }
 
-/*************** MEDIA QUERY 800PX ***************/
+/*************** INDEXNEW MEDIA QUERY 800PX ***************/
 
 @media screen and (max-width:800px){
     nav{
@@ -226,7 +226,7 @@ footer{
     }
 }
 
-/*************** MEDIA QUERY 500PX ***************/
+/*************** INDEXNEW MEDIA QUERY 500PX ***************/
 
 @media screen and (max-width:500px){
    
@@ -318,10 +318,11 @@ footer{
 
 .services-header-img{
 	width:94%;
-	margin: 0 3% 0 3%;
+    margin: 2% 3% 0 3%;
 }
 
 h1{
+    text-align:left;
 	font-size:25px;
 }
 
@@ -330,7 +331,7 @@ h1{
 	border-bottom: 1px solid black;
 	padding-bottom:30px;
 	padding-top:30px;
-	margin: 0 3% 0 3%;
+    margin: 22% 3% 0 3%;
 }
 
 .services-content {
@@ -382,4 +383,29 @@ p{
 
 .copywrite{
 	margin-top:5%;
+}
+
+/************** SERVICES MEDIA QUERy 800px **************/
+
+@media screen and (max-width:800px){
+    
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    nav a{
+        margin-top:2%;
+        text-align: center;
+    }
+    .links a{
+        padding:2% 4% 2% 4%;
+    }
+    .logo{
+        margin-left:20%;
+    }
+
+    .top-info{
+        margin-top:30%;
+    }
 }
