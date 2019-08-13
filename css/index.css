@@ -137,6 +137,7 @@ h1{
 
 button{
     border:1px solid black;
+    background-color:white;
     padding:5px 30px 5px 30px;
     font-size:20px;
     margin-bottom:40px;
@@ -200,7 +201,9 @@ footer{
         margin-top:2%;
         text-align: center;
     }
-    
+    .links a{
+        padding:2% 4% 2% 4%;
+    }
     .logo{
         margin-left:20%;
     }
@@ -209,19 +212,27 @@ footer{
     }
     .title{
         width: 100%;
+        margin-top:5%;
         display: flex;
         justify-content: center;
         }
+    h1{
+        font-size:70px;
+    }
+    #top-content{
+        margin-top:10%;
+    }
 }
 
-/*************** MEDIA QUERY 800PX ***************/
+/*************** MEDIA QUERY 500PX ***************/
 
 @media screen and (max-width:500px){
     
     nav{
-        width:100%;
+        width:100%%;
         display: flex;
         flex-direction: column-reverse;
+        align-items:center;
         
     }
     
@@ -232,6 +243,48 @@ footer{
         width:100%; 
     }
     .links a{
+        width:94%;
+        border-top-width:100%;
+        border-bottom:1px solid black;
+        padding:4% 0 4% 0;
+        margin-left:none;
+        display: flex;
+        justify-content: center;
         
+        
+    }
+    .LogoContainer{
+        width:94%;
+        padding:4% 0 4% 0;
+        /* text-align:center; */
+        /* display: flex;
+        justify-items: center; */
+    }
+    .LogoContainer .logo{
+        margin:0;
+        display: flex;
+        /* justify-items: center; */
+    }
+    .title{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .topContainer{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .topContainer div{
+        width:100%;
+    }
+    .bottomContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomContainer div{
+        width:100%;
     }
 }
